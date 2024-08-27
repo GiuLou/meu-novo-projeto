@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="navegador.png" type="image/png">
+</head>
+
+
+<div class="container">
+<body>
+    <div class="app-container">
+        <h1>Conversor para criptografia</h1>
+        
+        
+        <div class="flex-container">
+            <div class="input-section">
+                <textarea id="input-text" placeholder="Digite seu texto"></textarea>
+                <p class="small-text">Apenas letras minúsculas e sem acento serão permitidas</p>
+                <div class="buttons">
+                    <button class="action-btn" onclick="criptografar()">Criptografar</button>
+                    <button class="action-btn" onclick="descriptografar()">Descriptografar</button>
+                </div>
+            </div>
+
+            <div class="output-section">
+                <textarea id="output-text" readonly placeholder="Texto criptografado"></textarea>
+                <button class="copy-btn" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </div>
+    </div>
+   
+<footer>
+    Criado por Giulia Louzada
+</footer>
+</body>
+</html>
+
+    <script src="script.js"></script>
+</body>
+</html>
